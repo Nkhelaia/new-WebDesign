@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    background: url('https://pngimage.net/wp-content/uploads/2018/05/blue-header-png-6.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}    
+.top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background: white;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.logo img{
+    width: 70px;
+}
+.subscribe{
+    margin-top: 20px;
+}
+.subscribe button{
+    width: 150px;
+    height: 40px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #3f51b5;
+    font-size: 18px;
+    
+}
+.between{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    
+    flex-direction: column;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: aliceblue;
+}
+.title h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: 900;
+}
+.title span{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+.title button{
+    width: 170px;
+    height: 50px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #3f51b5;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.image{
+
+}
+.image img{
+    width: 400px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    margin-top: -400px;
+}
+.name i{
+    color: darkmagenta;
+}
+.name h2{
+    font-size: 40px;
+    color: #333;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar{
+
+}
+.sidebar img{
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main button{
+    width: 170px;
+    height: 50px;
+    background: darkmagenta;
+    border: 2px solid darkmagenta;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.top-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.top-title i{
+    color: darkmagenta;
+}
+.top{
+    color: #3f51b5;
+}
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+@media (max-width:1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:991px) {
+    div{
+        padding: 0 3%;
+        padding-top: 7.5rem;
+    }
+}
+@media (max-width:768px) {
+    header{
+        background: url('https://pngimage.net/wp-content/uploads/2018/05/blue-header-png-6.png')no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 1500px;
+    }    
+    .top{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 40px;
+        background: white;
+        border-radius: 100%;
+        
+    }
+    .logo img{
+        width: 20px;
+    }
+    .subscribe{
+        margin-top: 20px;
+    }
+    .subscribe button{
+        width: 100px;
+        height: 40px;
+        background: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: #3f51b5;
+        font-size: 10px;
+        
+    }
+    .between{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .title{
+        display: flex;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .title h2{
+        font-size: 20px;
+        font-weight: 200;
+        color: aliceblue;
+    }
+    .title h1{
+        color: white;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .title span{
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 20px;
+        color: white;
+    }
+    .title button{
+        width: 100px;
+        height: 40px;
+        background: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: #3f51b5;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .image{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .image img{
+        width: 100%;
+        
+    }
+    .name{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        height: 50px;
+        margin-top: -400px;
+    }
+    .name i{
+        color: darkmagenta;
+    }
+    .name h2{
+        font-size: 40px;
+        color: #333;
+    }
+    .container{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 500px;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .sidebar img{
+        width: 100%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .main button{
+        width: 100px;
+        height: 40px;
+        background: darkmagenta;
+        border: 2px solid darkmagenta;
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .top-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .top-title i{
+        color: darkmagenta;
+    }
+    .top{
+        color: #3f51b5;
+    }
+}    
+    @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+    }
+
+@media (max-width:450px) {
+    html{
+        font-size: 50%;
+        width: 100%;
+        height: 1700px;
+    }
+}
